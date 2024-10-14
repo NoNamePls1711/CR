@@ -1,0 +1,121 @@
+/* CSS สำหรับ PaymentPage */
+.payment-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.payment-details {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 400px; /* Increased width */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-details h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.payment-details p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Increased gap for better spacing */
+  margin-top: 10px;
+  width: 400px; /* Set a specific width to align with payment-details */
+}
+
+.payment-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.payment-form button {
+  background-color: #ff9900; /* Using the same color as previous button */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.payment-form button:hover {
+  background-color: #ff8800; /* Adjusted to match previous hover color */
+}
+
+.payment-summary {
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  width: 400px; /* Align with other sections */
+}
+
+.payment-summary h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.payment-summary p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.payment-summary p span {
+  font-weight: bold;
+}
+
+.additional-info {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.icon-benefits {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.icon-benefits div {
+  text-align: center;
+  padding: 20px;
+}
+
+.icon-benefits img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.icon-benefits p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.additional-info h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}

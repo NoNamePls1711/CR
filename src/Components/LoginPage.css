@@ -1,0 +1,43 @@
+.login-page {
+  display: flex;
+  justify-content: center; /* จัดกลางแนวนอน */
+  align-items: center; /* จัดกลางแนวตั้ง */
+  height: 100vh; /* ความสูงของหน้าจอ */
+  background-color: #f8f9fa; /* เปลี่ยนสีพื้นหลังตามต้องการ */
+}
+
+.login-form {
+  background-color: white; /* สีพื้นหลังของฟอร์ม */
+  padding: 20px;
+  border-radius: 5px; /* มุมโค้ง */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* เงา */
+  width: 300px; /* กำหนดความกว้างของฟอร์ม */
+}
+
+/* ปรับเพิ่มระยะห่างระหว่าง label และ input */
+.login-form label {
+  display: block; /* ทำให้ label เป็น block element */
+  margin-bottom: 5px; /* เพิ่มระยะห่างด้านล่าง */
+}
+
+.login-form input {
+  width: 100%; /* ทำให้ input กว้างเต็มฟอร์ม */
+  padding: 10px; /* เพิ่ม padding ภายใน */
+  margin-bottom: 15px; /* เพิ่มระยะห่างระหว่าง input */
+  border: 1px solid #ced4da; /* เส้นขอบของ input */
+  border-radius: 4px; /* มุมโค้ง */
+}
+
+button {
+  width: 100%; /* ทำให้ปุ่มกว้างเต็มฟอร์ม */
+  padding: 10px; /* เพิ่ม padding ภายใน */
+  background-color: #007bff; /* เปลี่ยนสีพื้นหลังของปุ่ม */
+  color: white; /* เปลี่ยนสีตัวอักษร */
+  border: none; /* ไม่มีเส้นขอบ */
+  border-radius: 4px; /* มุมโค้ง */
+  cursor: pointer; /* แสดงเป็นมือเมื่อชี้ */
+}
+
+button:hover {
+  background-color: #0056b3; /* เปลี่ยนสีเมื่อชี้ */
+}
